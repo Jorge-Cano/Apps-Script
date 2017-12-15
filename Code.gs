@@ -1,4 +1,4 @@
-function createAndSentDocument() {
+function createAndSendDocument() {
   var doc = DocumentApp.create('Hello, world!');
 
   doc.getBody().appendParagraph('Automate your Tasks using Functions in App Script');
